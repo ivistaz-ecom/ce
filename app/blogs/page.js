@@ -36,7 +36,7 @@ const Page = () => {
             >
               Blogs
             </h1>
-            <div className="border-2 border-ce-red w-20 mb-2 z-50" />
+            <div className="border-2 border-ce-red w-12 mb-2 z-50" />
           </div>
         </div>
       </div>

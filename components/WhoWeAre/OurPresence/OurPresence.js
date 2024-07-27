@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react"
 
 const OurPresence = () => {
   return (
     <div>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center gap-4 mb-16">
+        <div className="flex flex-col items-center gap-3 mb-16">
           <h2
             className="text-ce-brown text-2xl sm:text-3xl text-center"
             data-aos="fade-up"

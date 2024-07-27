@@ -1,11 +1,14 @@
-import { partnersData } from '@/utils/data'
-import Image from 'next/image'
-import React from 'react'
+import { partnersData } from "@/utils/data"
+import Image from "next/image"
+import React from "react"
 
 const OurPartners = () => {
   return (
-    <div className="flex flex-col items-center gap-4 mb-16">
-      <h2 className="text-ce-brown text-3xl" data-aos="fade-up">
+    <div className="flex flex-col items-center gap-3 mb-16">
+      <h2
+        className="text-ce-brown text-2xl sm:text-3xl text-center"
+        data-aos="fade-up"
+      >
         Our Partners
       </h2>
       <div className="border-2 border-ce-red w-20 mb-2" />

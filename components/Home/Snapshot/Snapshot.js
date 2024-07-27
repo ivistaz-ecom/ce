@@ -1,14 +1,16 @@
-'use client'
+"use client"
 
-import { snapshotData } from '@/utils/data'
-import Image from 'next/image'
-import React from 'react'
-import CountUp from 'react-countup'
+import { snapshotData } from "@/utils/data"
+import Image from "next/image"
+import React from "react"
+import CountUp from "react-countup"
 
 const Snapshot = () => {
   return (
-    <div className="flex flex-col items-center gap-[100px] mb-16">
-      <h2 className="text-ce-brown text-3xl">Snapshot</h2>
+    <div className="flex flex-col items-center gap-3 mb-16">
+      <h2 className="text-ce-brown text-2xl sm:text-3xl text-center">
+        Snapshot
+      </h2>
       <div className="border-2 border-ce-red w-20 mb-2" />
       <ul className="flex flex-wrap justify-center gap-3 mt-5">
         {snapshotData.map((item) => {

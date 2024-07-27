@@ -1,8 +1,8 @@
-'use client'
+"use client"
 
-import { useState } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import { useState } from "react"
+import Link from "next/link"
+import Image from "next/image"
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -59,7 +59,7 @@ const Header = () => {
         </button>
         <div
           className={`${
-            navbarOpen ? 'block' : 'hidden'
+            navbarOpen ? "block" : "hidden"
           } w-full md:block md:w-auto`}
           id="navbar-dropdown"
         >
@@ -99,7 +99,7 @@ const Header = () => {
               <div
                 id="dropdownNavbar"
                 className={`z-10 ${
-                  dropdownAbout ? 'block' : 'hidden'
+                  dropdownAbout ? "block" : "hidden"
                 } absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
               >
                 <ul
@@ -135,11 +135,19 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/field-connect"
+                href="/community-connect"
                 className="block py-2 px-3 text-lg text-white md:p-0"
                 aria-current="page"
               >
-                Field Connect
+                CommunityConnect
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/methodology"
+                className="block py-2 px-3 text-lg text-white md:p-0"
+              >
+                Methodology
               </Link>
             </li>
             <li>
@@ -178,7 +186,7 @@ const Header = () => {
               <div
                 id="dropdownNavbar"
                 className={`z-10 ${
-                  dropdownResources ? 'block' : 'hidden'
+                  dropdownResources ? "block" : "hidden"
                 } absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
               >
                 <ul
@@ -193,14 +201,14 @@ const Header = () => {
                       Blogs
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/methodology"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Methodology
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/success-stories"

@@ -1,14 +1,14 @@
-import { facebook, linkedIn, twitter } from '@/utils/icon'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import { facebook, linkedIn, twitter } from "@/utils/icon"
+import Image from "next/image"
+import Link from "next/link"
+import React from "react"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
     <>
       <div
-        className="flex flex-col items-center gap-4 p-4 sm:p-6 md:p-8 lg:p-10"
+        className="flex flex-col items-center gap-3 p-4 sm:p-6 md:p-8 lg:p-10"
         data-aos="zoom-in"
       >
         <h2 className="text-ce-brown text-2xl sm:text-3xl">
@@ -23,9 +23,9 @@ const Footer = () => {
             |
           </span>
           <h3 className="text-base sm:text-lg md:text-xl">
-            <span className="text-ce-vivid-md-green">Email:</span>{' '}
-            contactfuzhio@catalysts.org{' '}
-            <span className="font-light hidden md:inline-block">|</span>{' '}
+            <span className="text-ce-vivid-md-green">Email:</span>{" "}
+            contactfuzhio@catalysts.org{" "}
+            <span className="font-light hidden md:inline-block">|</span>{" "}
             latheef@catalysts.org
           </h3>
         </div>

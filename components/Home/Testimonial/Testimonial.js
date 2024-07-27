@@ -47,12 +47,12 @@ const Testimonials = () => {
         <div className="max-w-screen-xl mx-auto">
           <div className="flex flex-col items-center gap-3 mb-10">
             <h1
-              className="text-xl sm:text-2xl lg:text-3xl text-ce-brown text-center font-semibold"
+              className="text-ce-brown text-2xl sm:text-3xl text-center font-semibold"
               data-aos="fade-up"
             >
               Testimonial
             </h1>
-            <div className="border-2 border-ce-red w-32 mb-2" />
+            <div className="border-2 border-ce-red w-20 mb-2" />
           </div>
           <InsightSlider ref={sliderRef} {...setting}>
             {testimonials.map((item) => (

@@ -1,27 +1,27 @@
-'use client'
+"use client"
 
-import React, { useState } from 'react'
-import ContactForm from '../../../utils/contact'
+import React, { useState } from "react"
+import ContactForm from "../../../utils/contact"
 
 const ContactUs = () => {
   const fields = {
-    formid: '2',
+    formid: "2",
     fields: [
-      { id: 'firstname', label: 'First Name', type: 'text' },
-      { id: 'lastname', label: 'Last Name', type: 'text' },
-      { id: 'email', label: 'Email ID', type: 'email' },
-      { id: 'organisationName', label: 'Organisation', type: 'text' },
-      { id: 'messageBox', label: 'Message', type: 'textarea' },
+      { id: "firstname", label: "First Name", type: "text" },
+      { id: "lastname", label: "Last Name", type: "text" },
+      { id: "email", label: "Email ID", type: "email" },
+      { id: "organisationName", label: "Organisation", type: "text" },
+      { id: "messageBox", label: "Message", type: "textarea" },
     ],
   }
 
   return (
     <div className="bg-ce-carmine text-white py-10 px-4 sm:px-10 mb-16">
       <div className="max-w-screen-xl flex flex-col items-center mx-auto gap-3">
-        <h1 className="text-3xl sm:text-4xl" data-aos="fade-up">
+        <h1 className="text-2xl sm:text-3xl text-center" data-aos="fade-up">
           Contact Us
         </h1>
-        <div className="border-2 border-white w-16" />
+        <div className="border-2 border-white w-20" />
         <p
           className="text-lg sm:text-2xl font-light text-center w-11/12 sm:w-3/5"
           data-aos="fade-down"

@@ -7,7 +7,7 @@ const QC = () => {
     <div className="flex flex-col items-center gap-10 py-16 px-5 sm:px-10 lg:px-24 mb-5">
       <div className="flex flex-col items-center gap-3">
         <h1
-          className="text-xl sm:text-2xl lg:text-3xl text-ce-brown text-center font-semibold"
+          className="text-ce-brown text-2xl sm:text-3xl text-center"
           data-aos="fade-up"
         >
           Quality Control (QC)

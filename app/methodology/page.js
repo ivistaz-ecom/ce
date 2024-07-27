@@ -67,7 +67,7 @@ const Page = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col items-center gap-3">
           <h1
-            className="text-xl sm:text-2xl lg:text-3xl text-ce-brown text-center font-semibold"
+            className="text-ce-brown text-2xl sm:text-3xl text-center"
             data-aos="fade-up"
           >
             Our Methodologies

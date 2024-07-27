@@ -15,8 +15,11 @@ const Clientle = () => {
 
   return (
     <div className="mb-16">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center gap-4">
-        <h2 className="text-ce-brown text-3xl" data-aos="fade-up">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center gap-3">
+        <h2
+          className="text-ce-brown text-2xl sm:text-3xl text-center"
+          data-aos="fade-up"
+        >
           Clientele
         </h2>
         <div className="border-2 border-ce-red w-20 mb-2" />

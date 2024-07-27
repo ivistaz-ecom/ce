@@ -1,17 +1,17 @@
-'use client'
+"use client"
 
-import { AppContext } from '@/context/AppContext'
-import { ourServicesData } from '@/utils/data'
-import Link from 'next/link'
-import React, { useContext } from 'react'
+import { AppContext } from "@/context/AppContext"
+import { ourServicesData } from "@/utils/data"
+import Link from "next/link"
+import React, { useContext } from "react"
 
 const OurServices = () => {
   const { setActiveServiceId } = useContext(AppContext)
 
   return (
-    <div className="flex flex-col items-center gap-4 mb-16">
+    <div className="flex flex-col items-center gap-3 mb-16">
       <h2
-        className="text-ce-brown text-3xl sm:text-4xl"
+        className="text-ce-brown text-2xl sm:text-3xl text-center"
         data-aos="zoom-in-down"
       >
         Our Services

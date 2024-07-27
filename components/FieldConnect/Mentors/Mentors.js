@@ -14,7 +14,7 @@ const Mentors = () => {
         >
           Our Team
         </h1>
-        <div className="border-2 border-ce-red w-32 mb-2 z-50" />
+        <div className="border-2 border-ce-red w-20 mb-2 z-50" />
       </div>
       <div className="mt-7">
         <ul className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 md:gap-16 px-10">

@@ -29,7 +29,7 @@ const Page = () => {
           </Link>
         </div>
       </div>
-      <div className="-mt-40 mb-12">
+      <div className="-mt-32 mb-12">
         <Mentors />
         <CoreTeam />
 

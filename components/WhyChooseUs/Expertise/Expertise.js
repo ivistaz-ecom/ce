@@ -1,12 +1,15 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image"
+import React from "react"
 
 const Expertise = () => {
   return (
     <div className="mb-5">
       <div className="max-w-screen-xl mx-auto">
-        <div className="flex flex-col items-center gap-4 mb-16">
-          <h2 className="text-ce-brown text-3xl text-center" data-aos="fade-up">
+        <div className="flex flex-col items-center gap-3 mb-16">
+          <h2
+            className="text-ce-brown text-2xl sm:text-3xl text-center"
+            data-aos="fade-up"
+          >
             Expertise
           </h2>
           <div className="border-2 border-ce-red w-20 mb-2" />

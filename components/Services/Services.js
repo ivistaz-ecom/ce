@@ -39,12 +39,12 @@ const Services = () => {
         </ul>
       </div>
       <div className="flex justify-center" data-aos="zoom-in">
-        <div className="flex flex-col items-center gap-5 mt-8 px-3 max-w-screen-xl mx-auto">
-          <h1 className="text-2xl sm:text-3xl text-ce-brown font-semibold text-center">
+        <div className="flex flex-col items-center gap-3 mt-8 px-3 max-w-screen-xl mx-auto">
+          <h1 className="text-ce-brown text-2xl sm:text-3xl text-center">
             {getActiveService().data.title}
           </h1>
           <div className="border-2 border-ce-red w-20 mb-2" />
-          <p className="text-ce-gray text-center text-base sm:text-lg w-full sm:w-3/4">
+          <p className="text-ce-gray text-center text-base sm:text-lg w-full sm:w-3/4 mt-5">
             {getActiveService().data.desc}
           </p>
         </div>

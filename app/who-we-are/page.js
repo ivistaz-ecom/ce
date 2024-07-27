@@ -29,9 +29,9 @@ const Page = () => {
       </div>
       <div className="-mt-16 mb-16">
         <div className="px-4 lg:ps-40 flex flex-col items-start gap-6">
-          <div className="w-full flex flex-col items-center lg:items-start gap-2">
+          <div className="w-full flex flex-col items-center lg:items-start gap-3">
             <h1
-              className="text-3xl lg:text-[40px] text-ce-brown font-semibold text-center lg:text-left"
+              className="text-2xl sm:text-3xl md:text-4xl text-ce-brown text-center font-semibold"
               data-aos="fade-up"
             >
               Who We Are
