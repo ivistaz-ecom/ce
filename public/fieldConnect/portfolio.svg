@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1391.836" height="1081.255" viewBox="0 0 1391.836 1081.255">
+  <g id="Group_51413" data-name="Group 51413" transform="translate(8 -1193.156)">
+    <path id="Path_74835" data-name="Path 74835" d="M3.043,401.313,1384.879,279.156v910.1L3.043,1311.412Z" transform="translate(-11.043 914)" fill="#bcd55d"/>
+    <g id="Path_74836" data-name="Path 74836" transform="translate(-11.043 963)" fill="none">
+      <path d="M3.043,410.968,1394.879,288.811v900.444L3.043,1311.412Z" stroke="none"/>
+      <path d="M 1393.87890625 289.90283203125 L 4.04296875 411.884033203125 L 4.04296875 1310.319946289062 L 1393.87890625 1188.338623046875 L 1393.87890625 289.90283203125 M 1394.87890625 288.8111572265625 L 1394.87890625 1189.254638671875 L 3.04296875 1311.41162109375 L 3.04296875 410.9678955078125 L 1394.87890625 288.8111572265625 Z" stroke="none" fill="#17a100"/>
+    </g>
+    <rect id="Rectangle_18975" data-name="Rectangle 18975" width="287" height="85" rx="15" transform="translate(540 1343)" fill="#17a100"/>
+    <text id="Portfolio_Manager" data-name="Portfolio Manager" transform="translate(684 1396)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-100" y="0">Portfolio Manager</tspan></text>
+    <rect id="Rectangle_18976" data-name="Rectangle 18976" width="287" height="85" rx="15" transform="translate(58 1511)" fill="#72852a"/>
+    <rect id="Rectangle_18977" data-name="Rectangle 18977" width="287" height="85" rx="15" transform="translate(379 1511)" fill="#72852a"/>
+    <rect id="Rectangle_18978" data-name="Rectangle 18978" width="287" height="85" rx="15" transform="translate(700 1511)" fill="#72852a"/>
+    <rect id="Rectangle_18979" data-name="Rectangle 18979" width="287" height="85" rx="15" transform="translate(1021 1511)" fill="#72852a"/>
+    <text id="Zonal_Manager" data-name="Zonal Manager" transform="translate(202 1579)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-83" y="0">Zonal Manager</tspan></text>
+    <text id="South" transform="translate(202 1547)" fill="#fff" font-size="35" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-45" y="0">South</tspan></text>
+    <text id="North" transform="translate(523 1547)" fill="#fff" font-size="35" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-46" y="0">North</tspan></text>
+    <text id="East" transform="translate(844 1547)" fill="#fff" font-size="35" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-33" y="0">East</tspan></text>
+    <text id="West" transform="translate(1165 1547)" fill="#fff" font-size="35" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-40" y="0">West</tspan></text>
+    <text id="Zonal_Manager-2" data-name="Zonal Manager" transform="translate(523 1579)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-83" y="0">Zonal Manager</tspan></text>
+    <text id="Zonal_Manager-3" data-name="Zonal Manager" transform="translate(844 1579)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-83" y="0">Zonal Manager</tspan></text>
+    <text id="Zonal_Manager-4" data-name="Zonal Manager" transform="translate(1165 1579)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-83" y="0">Zonal Manager</tspan></text>
+    <path id="Path_74837" data-name="Path 74837" d="M6704,3964v51.958H6199.359v26.792" transform="translate(-6021 -2536)" fill="none" stroke="gray" stroke-width="2" stroke-dasharray="8"/>
+    <path id="Path_74838" data-name="Path 74838" d="M6199.359,3964v51.958h482v26.792" transform="translate(-5516.359 -2536)" fill="none" stroke="gray" stroke-width="2" stroke-dasharray="8"/>
+    <path id="Path_74839" data-name="Path 74839" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(278.807 1345.482)" fill="#6e180c"/>
+    <path id="Path_74840" data-name="Path 74840" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(-225.834 1365.745)" fill="#6e180c"/>
+    <path id="Path_74843" data-name="Path 74843" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(760.807 1365.745)" fill="#6e180c"/>
+    <path id="Path_74844" data-name="Path 74844" d="M6544,4017.113v20.493" transform="translate(-6021 -2536)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="8"/>
+    <path id="Path_74849" data-name="Path 74849" d="M6544,4017.113v20.493" transform="translate(-6021 -2418)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="8"/>
+    <path id="Path_74845" data-name="Path 74845" d="M6544,4017.113v20.493" transform="translate(-5701 -2536)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="8"/>
+    <path id="Path_74848" data-name="Path 74848" d="M6544,4017.113v20.493" transform="translate(-5701 -2418)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="8"/>
+    <path id="Path_74846" data-name="Path 74846" d="M6704,4042.75v-51.958H6199.359V3972" transform="translate(-6021 -2369)" fill="none" stroke="gray" stroke-width="2" stroke-dasharray="8"/>
+    <path id="Path_74847" data-name="Path 74847" d="M6199.359,4419.979V3990.792h482V3964" transform="translate(-5516.359 -2369)" fill="none" stroke="gray" stroke-width="2" stroke-dasharray="8"/>
+    <path id="Path_74841" data-name="Path 74841" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(118.807 1365.745)" fill="#6e180c"/>
+    <path id="Path_74851" data-name="Path 74851" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(118.807 1468.354)" fill="#6e180c"/>
+    <path id="Path_74842" data-name="Path 74842" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(439.807 1365.745)" fill="#6e180c"/>
+    <path id="Path_74852" data-name="Path 74852" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(439.807 1468.354)" fill="#6e180c"/>
+    <path id="Path_74853" data-name="Path 74853" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(760.807 1468.354)" fill="#6e180c"/>
+    <path id="Path_74850" data-name="Path 74850" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(-225.834 1468.354)" fill="#6e180c"/>
+    <path id="Path_74854" data-name="Path 74854" d="M404.193,141a5.375,5.375,0,1,1,3.8-1.574,5.355,5.355,0,0,1-3.8,1.574" transform="translate(278.807 1483.975)" fill="#6e180c"/>
+    <rect id="Rectangle_18980" data-name="Rectangle 18980" width="287" height="85" rx="15" transform="translate(540 1669)" fill="#ae3f39"/>
+    <rect id="Rectangle_18981" data-name="Rectangle 18981" width="287" height="85" rx="15" transform="translate(540 1794)" fill="#ae3f39"/>
+    <rect id="Rectangle_18982" data-name="Rectangle 18982" width="287" height="85" rx="15" transform="translate(540 1919)" fill="#ae3f39"/>
+    <rect id="Rectangle_18983" data-name="Rectangle 18983" width="287" height="85" rx="15" transform="translate(540 2044)" fill="#ae3f39"/>
+    <text id="State_Manager_State_Level_" data-name="State Manager
+(State Level)" transform="translate(684 1704)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-81" y="0">State Manager</tspan><tspan x="-67" y="35">(State Level)</tspan></text>
+    <text id="District_Coordinator_District_Level_" data-name="District Coordinator
+(District Level)" transform="translate(684 1829)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-111" y="0">District Coordinator</tspan><tspan x="-79" y="35">(District Level)</tspan></text>
+    <text id="Supervisor_Block_Level_" data-name="Supervisor
+(Block Level)" transform="translate(684 1954)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-59" y="0">Supervisor</tspan><tspan x="-69" y="35">(Block Level)</tspan></text>
+    <text id="Field_Enumerator_Village_Level_" data-name="Field Enumerator
+(Village Level)" transform="translate(684 2079)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-95" y="0">Field Enumerator</tspan><tspan x="-76" y="35">(Village Level)</tspan></text>
+  </g>
+</svg>
