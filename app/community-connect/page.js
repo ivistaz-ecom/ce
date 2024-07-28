@@ -18,13 +18,13 @@ const Page = () => {
     <>
       <div className="h-[400px] md:h-[700px] bg-center bg-[url('/webBanner/banner05.jpg')] bg-cover mb-16">
         <Header />
-        <div className="text-end mt-16">
-          <Link href="contact-us">
-            <button className="px-6 py-3 rounded-l-xl text-white bg-ce-green text-xl">
-              Contact Us
-            </button>
-          </Link>
-        </div>
+      </div>
+      <div className="flex justify-end relative">
+        <Link href="contact-us">
+          <button className="px-6 py-3 rounded-l-xl text-white bg-ce-green text-xl fixed top-40 right-0 z-50">
+            Contact Us
+          </button>
+        </Link>
       </div>
       <div className="-mt-24 mb-12">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-20 flex flex-col gap-6">

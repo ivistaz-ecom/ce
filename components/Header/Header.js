@@ -59,7 +59,7 @@ const Header = () => {
         </button>
         <div
           className={`${
-            navbarOpen ? "block" : "hidden"
+            navbarOpen ? "block bg-black/40" : "hidden"
           } w-full md:block md:w-auto`}
           id="navbar-dropdown"
         >

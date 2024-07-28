@@ -26,14 +26,16 @@ export default function Home() {
         data-aos="fade-down"
       >
         <Header />
-        <div className="text-end mt-16">
-          <Link href="contact-us">
-            <button className="px-6 py-3 rounded-l-xl text-white bg-ce-green text-xl">
-              Contact Us
-            </button>
-          </Link>
-        </div>
       </div>
+
+      <div className="flex justify-end relative">
+        <Link href="contact-us">
+          <button className="px-6 py-3 rounded-l-xl text-white bg-ce-green text-xl fixed top-40 right-0 z-50">
+            Contact Us
+          </button>
+        </Link>
+      </div>
+
       <div className="-mt-24 mb-16">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-6">
           <h1

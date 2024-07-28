@@ -19,13 +19,13 @@ const Page = () => {
         data-aos="zoom-in"
       >
         <Header />
-        <div className="text-end mt-16">
-          <Link href="contact-us">
-            <button className="px-6 py-3 rounded-l-xl text-white bg-ce-green text-xl">
-              Contact Us
-            </button>
-          </Link>
-        </div>
+      </div>
+      <div className="flex justify-end relative">
+        <Link href="contact-us">
+          <button className="px-6 py-3 rounded-l-xl text-white bg-ce-green text-xl fixed top-40 right-0 z-50">
+            Contact Us
+          </button>
+        </Link>
       </div>
       <div className="-mt-16 mb-16">
         <div className="px-4 lg:ps-40 flex flex-col items-start gap-6">

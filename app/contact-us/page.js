@@ -7,11 +7,6 @@ const page = () => {
     <>
       <div className="h-[400px] md:h-[700px] bg-center bg-[url('/webBanner/banner09.jpg')] bg-cover mb-16">
         <Header />
-        {/* <div className="text-end mt-16">
-        <button className="px-6 py-3 rounded-l-xl text-white bg-ce-green text-xl">
-          Contact Us
-        </button>
-      </div> */}
       </div>
       <div className="-mt-40 mb-16">
         <div className="max-w-screen-xl mx-auto px-12 flex flex-col items-center gap-3">

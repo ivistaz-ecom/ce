@@ -15,9 +15,9 @@ const QC = () => {
         <div className="border-2 border-ce-red w-20 mb-2" />
       </div>
 
-      <div className="flex justify-center gap-5 w-10/12">
+      <div className="flex flex-col justify-center gap-5 max-w-screen-2xl mx-auto">
         <p
-          className="text-base sm:text-lg lg:text-xl text-ce-black sm:w-5/6 lg:w-4/6 text-[#5C5C5C]"
+          className="text-base sm:text-lg lg:text-xl text-ce-black text-center"
           data-aos="fade-down"
         >
           Quality Control (QC) exercise constitutes routine technical activities
@@ -27,33 +27,31 @@ const QC = () => {
           measures. QC ensures ‘data confidence’ as it helps to validate the
           authenticity and robustness of the data collected by the enumerators.
         </p>
-        <div className="flex justify-center mt-7">
-          <ul className="flex flex-col gap-5">
-            {qcData.map((item) => {
-              return (
-                <li
-                  key={item.id}
-                  className="flex flex-col gap-5"
-                  data-aos="zoom-in"
-                >
-                  <div className="flex gap-5">
-                    <Image
-                      src={item.iconUrl}
-                      width={100}
-                      height={100}
-                      alt={item.title}
-                      className=""
-                    />
-                    <div>
-                      <h3 className="text-2xl text-ce-brown font-semibold">
-                        {item.title}
-                      </h3>
-                      <p className="text-lg text-ce-gray">{item.desc}</p>
-                    </div>
+        <div className="mt-7">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {qcData.map((item) => (
+              <li
+                key={item.id}
+                className="flex flex-col gap-7"
+                data-aos="zoom-in"
+              >
+                <div className="flex gap-5">
+                  <Image
+                    src={item.iconUrl}
+                    width={100}
+                    height={100}
+                    alt={item.title}
+                    className="self-start"
+                  />
+                  <div>
+                    <h3 className="text-2xl text-ce-brown font-semibold">
+                      {item.title}
+                    </h3>
+                    <p className="text-lg text-ce-gray">{item.desc}</p>
                   </div>
-                </li>
-              )
-            })}
+                </div>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
