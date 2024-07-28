@@ -14,7 +14,7 @@ const Clientle = () => {
   // }
 
   return (
-    <div className="mb-16">
+    <div className="mb-16 overflow-hidden">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center gap-3">
         <h2
           className="text-ce-brown text-2xl sm:text-3xl text-center"
