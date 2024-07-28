@@ -24,9 +24,16 @@ const Footer = () => {
           </span>
           <h3 className="text-base sm:text-lg md:text-xl">
             <span className="text-ce-vivid-md-green">Email:</span>{" "}
-            contactfuzhio@catalysts.org{" "}
+            <a
+              href="mailto:contactfuzhio@catalysts.org"
+              className="text-inherit"
+            >
+              contactfuzhio@catalysts.org
+            </a>{" "}
             <span className="font-light hidden md:inline-block">|</span>{" "}
-            latheef@catalysts.org
+            <a href="mailto:latheef@catalysts.org" className="text-inherit">
+              latheef@catalysts.org
+            </a>
           </h3>
         </div>
       </div>
@@ -91,11 +98,13 @@ const Footer = () => {
               </h3>
               <ul className="font-light space-y-2">
                 <li className="hover:underline">
-                  <Link href="/blogs">Blogs</Link>
+                  <Link href="https://fuzhio.org/blog" target="_blank">
+                    Blogs
+                  </Link>
                 </li>
-                <li className="hover:underline">
+                {/* <li className="hover:underline">
                   <Link href="/">Media</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
@@ -136,11 +145,11 @@ const Footer = () => {
                 Disclaimer
               </Link>
             </li>
-            <li className="after:content-['|'] after:px-1 last:after:content-['']">
+            {/* <li className="after:content-['|'] after:px-1 last:after:content-['']">
               <Link href="/sitemap" className="hover:underline">
                 Sitemap
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

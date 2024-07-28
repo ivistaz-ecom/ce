@@ -13,7 +13,7 @@ const Testimonials = () => {
   const sliderRef = useRef(null)
 
   var setting = {
-    speed: 500,
+    speed: 2000,
     slidesToShow: 2,
     initialSlide: 2,
     slidesToScroll: 1,
@@ -28,7 +28,7 @@ const Testimonials = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          infinite: false,
+          infinite: true,
         },
       },
       {

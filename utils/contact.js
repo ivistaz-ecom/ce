@@ -1,20 +1,18 @@
-'use client'
-
-import React, { useState } from 'react'
-import InputField from './InputField' // Importing reusable input field component
-import TextAreaField from './TextAreaField' // Importing reusable textarea field component
-import axios from 'axios'
+import React, { useState } from "react"
+import InputField from "./InputField" // Importing reusable input field component
+import TextAreaField from "./TextAreaField" // Importing reusable textarea field component
+import axios from "axios"
 
 export default function ContactForm({ fields, form }) {
   const [formData, setFormData] = useState(
     fields.reduce((acc, field) => {
-      acc[field.id] = ''
+      acc[field.id] = ""
       return acc
     }, {})
   )
 
   const [errors, setErrors] = useState({})
-  const [successMessage, setSuccessMessage] = useState('')
+  const [successMessage, setSuccessMessage] = useState("")
   const [loading, setLoading] = useState(false)
 
   const validateEmail = (email) => {
@@ -35,12 +33,12 @@ export default function ContactForm({ fields, form }) {
 
     // Email validation
     if (formData.email && !validateEmail(formData.email)) {
-      newErrors.email = 'Invalid email address'
+      newErrors.email = "Invalid email address"
     }
     if (!formData.phone) {
-      newErrors.phone = 'Phone number is required'
+      newErrors.phone = "Phone number is required"
     } else if (!/^\d+$/.test(formData.phone)) {
-      newErrors.phone = 'Phone number must be numeric'
+      newErrors.phone = "Phone number must be numeric"
     }
 
     // If there are errors, set the errors state
@@ -50,7 +48,7 @@ export default function ContactForm({ fields, form }) {
     }
 
     setLoading(true)
-    setSuccessMessage('')
+    setSuccessMessage("")
 
     try {
       const formDataToSend = new FormData()
@@ -59,27 +57,27 @@ export default function ContactForm({ fields, form }) {
       })
 
       const response = await axios.post(
-        'https://docs.fuzhio.org/wp-json/contact-form-7/v1/contact-forms/10/feedback',
+        "https://docs.fuzhio.org/wp-json/contact-form-7/v1/contact-forms/10/feedback",
         formDataToSend,
         {
           headers: {
-            'Content-Type': 'multipart/form-data',
+            "Content-Type": "multipart/form-data",
           },
         }
       )
 
-      console.log('Form data sent:', formDataToSend)
-      setSuccessMessage('Thank you for contacting us')
+      console.log("Form data sent:", formDataToSend)
+      setSuccessMessage("Thank you for contacting us")
       setFormData(
         fields.reduce((acc, field) => {
-          acc[field.id] = ''
+          acc[field.id] = ""
           return acc
         }, {})
       )
       setErrors({})
-      console.log('Form submitted successfully', response.data)
+      console.log("Form submitted successfully", response.data)
     } catch (error) {
-      console.error('Error submitting form', error)
+      console.error("Error submitting form", error)
     } finally {
       setLoading(false)
     }
@@ -103,24 +101,24 @@ export default function ContactForm({ fields, form }) {
     <form className="w-full max-w-screen-lg" onSubmit={handleFormSubmit}>
       {successMessage && (
         <div
-          class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+          className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
           role="alert"
         >
-          <span class="font-medium">Submitted!</span> {successMessage}
+          <span className="font-medium">Submitted!</span> {successMessage}
         </div>
       )}
-      <div className={`grid-cols-${form} grid gap-4`}>
+      <div className={`grid grid-cols-${form} gap-4`}>
         {fields.map((field) => (
           <div
             key={field.id}
             className={`${
-              field.type === 'textarea'
-                ? `col-span-${form}`
-                : 'flex flex-col w-full'
+              field.type === "textarea"
+                ? `${form === "2" ? "col-span-2" : "col-span-1"}`
+                : "flex flex-col w-full"
             }`}
           >
             <label htmlFor={field.id}>{field.label}</label>
-            {field.type === 'textarea' ? (
+            {field.type === "textarea" ? (
               <TextAreaField
                 id={field.id}
                 value={formData[field.id]}
@@ -142,9 +140,9 @@ export default function ContactForm({ fields, form }) {
         <button
           type="submit"
           className={`${
-            form === '2'
-              ? 'px-4 py-2 bg-white rounded text-ce-brown text-lg sm:text-xl'
-              : 'px-4 py-2 bg-ce-vivid-md-green rounded text-white text-lg sm:text-xl'
+            form === "2"
+              ? "px-4 py-2 bg-white rounded text-ce-brown text-lg sm:text-xl"
+              : "px-4 py-2 bg-ce-vivid-md-green rounded text-white text-lg sm:text-xl"
           }`}
         >
           Submit

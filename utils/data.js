@@ -380,14 +380,14 @@ export const coreTeamData = [
     linkedIn: "https://in.linkedin.com/",
     twitter: "https://x.com/?lang=en",
   },
-  {
-    id: 12,
-    imageUrl: "/fieldConnect/team/image12.png",
-    name: "Yamini",
-    designation: "Gender Specialist",
-    linkedIn: "https://in.linkedin.com/",
-    twitter: "https://x.com/?lang=en",
-  },
+  // {
+  //   id: 12,
+  //   imageUrl: "/fieldConnect/team/image12.png",
+  //   name: "Yamini",
+  //   designation: "Gender Specialist",
+  //   linkedIn: "https://in.linkedin.com/",
+  //   twitter: "https://x.com/?lang=en",
+  // },
   {
     id: 13,
     imageUrl: "/fieldConnect/team/image13.png",
@@ -856,13 +856,13 @@ export const testimonials = [
     imageUrl: "/home-page/image-1@2x.png",
     name: "Elisa Sanz",
     post: "C4ED Germany Team Leader - Qualitative Research & Evaluation Manager",
-    desc: "“Latheef and some of his colleagues are great in organizing the fieldwork and setting things, also very easy to talk to and ready to work extra time or adapt to anything necessary. Their authenticity and transparency makes any partner to connect again and again”",
+    desc: "“Latheef and some of his colleagues are great in organizing the fieldwork and setting things, also very easy to talk to and ready to work extra time or adapt to anything necessary. Their authenticity and transparency makes any partner to connect again and again.” ",
   },
   {
     id: 2,
     imageUrl: "/home-page/image-2@2x.png",
     name: "Ravinder Kumar",
     post: "Associate Professor, Natural Resources Institute (NRI),University of Greenwich, UK",
-    desc: "“My interaction with Aarna Law Offices India in a couple of important professional engagements has left me with the abiding impression of their utmost excellence in professionalism. The efficiency, courtesy and the finesse evident in their dealings with the clients is quite commendable. In depth research into legal issues gives them the cutting edge over their peers and demonstrates the hallmark of distinction that they have attained as a legal firm.”",
+    desc: "“The Community Engagement team is committed and has the necessary skill set to execute community engagement and field research. Moreover, the team usually goes out of its way to address challenges encountered. The team is well aware of ethical issues while conducting research in different sectors. This awareness is reflected in the actions on the field as well also capable to handle large multi state studies.”",
   },
 ]
