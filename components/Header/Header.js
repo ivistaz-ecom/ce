@@ -160,7 +160,18 @@ const Header = () => {
               </Link>
             </li>
 
-            <li className="relative">
+            <li>
+              <Link
+                href="https://fuzhio.org/blog"
+                target="_blank"
+                className="block py-2 px-3 text-lg text-white md:p-0"
+                aria-current="page"
+              >
+                Blogs
+              </Link>
+            </li>
+
+            {/* <li className="relative">
               <button
                 id="dropdownNavbarLink"
                 onClick={toggleDropdown2}
@@ -209,7 +220,7 @@ const Header = () => {
                     >
                       Methodology
                     </Link>
-                  </li> */}
+                  </li>
                   <li>
                     <Link
                       href="/success-stories"
@@ -220,7 +231,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

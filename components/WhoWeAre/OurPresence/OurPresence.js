@@ -29,7 +29,7 @@ const OurPresence = () => {
                   className="text-lg md:text-xl text-ce-black"
                   data-aos="fade-up"
                 >
-                  Our Field Connect team spans across India, from metros to
+                  Our CommunityConnect team spans across India, from metros to
                   remote areas, ensuring rapid, tailored responses with a
                   72-hour turnaround time. This extensive reach enhances our
                   ability to deliver precise, locally adapted solutions swiftly,

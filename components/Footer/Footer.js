@@ -56,13 +56,16 @@ const Footer = () => {
             </Link>
           </div>
           <hr className="w-full mb-6 mt-1 border-ce-light-green" />
-          <div className="flex flex-wrap justify-between" data-aos="zoom-up">
-            <div className="text-base sm:text-lg md:text-xl">
-              <h3 className="mb-2 hover:underline">
+          <div className="flex flex-wrap justify-between">
+            <div className="text-base sm:text-lg space-y-2 md:text-xl">
+              <h3 className="hover:underline">
                 <Link href="/who-we-are">About Us</Link>
               </h3>
               <h3 className="hover:underline">
-                <Link href="/field-connect">Field Connect</Link>
+                <Link href="/community-connect">CommunityConnect</Link>
+              </h3>
+              <h3 className="hover:underline">
+                <Link href="/methodology">Methodology</Link>
               </h3>
             </div>
             <div>
@@ -127,9 +130,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-ce-light-green p-4 sm:p-5">
-        <div className="max-w-screen-2xl flex flex-wrap justify-between items-center text-ce-brown mx-auto">
+        <div className="max-w-screen-2xl flex flex-wrap justify-center items-center text-ce-brown mx-auto">
           <p>©{currentYear} Fuzhio. All Rights Reserved.</p>
-          <ul className="flex flex-wrap">
+          {/* <ul className="flex flex-wrap">
             <li className="after:content-['|'] after:px-1 last:after:content-['']">
               <Link href="/terms-of-use" className="hover:underline">
                 Terms of Use
@@ -145,12 +148,12 @@ const Footer = () => {
                 Disclaimer
               </Link>
             </li>
-            {/* <li className="after:content-['|'] after:px-1 last:after:content-['']">
+            <li className="after:content-['|'] after:px-1 last:after:content-['']">
               <Link href="/sitemap" className="hover:underline">
                 Sitemap
               </Link>
-            </li> */}
-          </ul>
+            </li>
+          </ul> */}
         </div>
       </div>
     </>

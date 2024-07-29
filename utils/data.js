@@ -128,7 +128,7 @@ export const ourServicesData = [
   {
     id: 1,
     title: "Project Start-up Support <br /> (BoT)",
-    desc: "We specialise in on-ground support for effective program implementation.",
+    desc: "We specialise in on-ground support for effective programme implementation.",
   },
   {
     id: 2,
@@ -138,7 +138,7 @@ export const ourServicesData = [
   {
     id: 3,
     title: "Skills4Communities <br /> (S4C)",
-    desc: "Elevate your community heroes with our Skills4Communities program.",
+    desc: "Elevate your community heroes with our Skills4Communities programme.",
   },
   {
     id: 4,
@@ -461,7 +461,7 @@ export const servicesData = [
     tab: "Project Start-up Support (BoT)",
     data: {
       title: "Project Start-up Support (BoT)",
-      desc: "We specialise in on-ground support for effective program implementation. Our expertise in managing logistics, laying the groundwork, and fostering community collaboration ensures smooth project initiation and operation. With years of experience, we efficiently set up community systems and expedite program start-ups. Our processes allow partners to focus on their core objectives, leveraging our strong local base developed through Field Connect.",
+      desc: "We specialise in on-ground support for effective programme implementation. Our expertise in managing logistics, laying the groundwork, and fostering community collaboration ensures smooth project initiation and operation. With years of experience, we efficiently set up community systems and expedite program start-ups. Our processes allow partners to focus on their core objectives, leveraging our strong local base developed through CommunityConnect.",
       card: [],
       card2: [],
     },
@@ -471,7 +471,7 @@ export const servicesData = [
     tab: "Tech4Community (T4C)",
     data: {
       title: "Tech4Community (T4C)",
-      desc: "Embracing technology can significantly enhance outcomes for disadvantaged groups, yet its deployment poses challenges. We simplify the integration of complex technologies into real-world applications, ensuring they are user-friendly and adaptable to diverse community needs. Our approach accelerates the effectiveness of programs across India, empowering communities economically and socially through strategic technology use.",
+      desc: "Embracing technology can significantly enhance outcomes for disadvantaged groups, yet its deployment poses challenges. We simplify the integration of complex technologies into real-world applications, ensuring they are user-friendly and adaptable to diverse community needs. Our approach accelerates the effectiveness of programmes across India, empowering communities economically and socially through strategic technology use.",
       card: [],
       card2: [],
     },
@@ -481,7 +481,7 @@ export const servicesData = [
     tab: "Skills4Community (S4C)",
     data: {
       title: "Skills4Community (S4C)",
-      desc: "Elevate your community heroes with our Skills4Communities program. In collaboration with Vrutti, we provide comprehensive training and tools to turn local groups into powerful changemakers. Our program focuses on skill enhancement, entrepreneurship, and business management, empowering individuals and groups to excel within their communities.",
+      desc: "Elevate your community heroes with our Skills4Communities program. In collaboration with Vrutti, we provide comprehensive training and tools to turn local groups into powerful changemakers. Our programmes focuses on skill enhancement, entrepreneurship, and business management, empowering individuals and groups to excel within their communities.",
       card: [],
       card2: [],
     },
@@ -536,7 +536,7 @@ export const servicesData = [
           iconUrl:
             "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/services/icon05.svg",
           title: "Research Expertise",
-          desc: "Our proficiency in Quantitative, Qualitative, and Mixed methods delivers insightful community research for improved decision-making.",
+          desc: "Our proficiency in Quantitative, Qualitative, and Mixed methods delivers insightful community research for improved <br /> decision-making.",
         },
       ],
       card2: [],
@@ -547,7 +547,7 @@ export const servicesData = [
     tab: "Data Management (DM)",
     data: {
       title: "Data Management (DM)",
-      desc: "We specialise in designing databases and offer extensive technical support for data digitization, ensuring the utmost data integrity. Our team has deep experience with a variety of databases, from traditional PC-based systems to online platforms, and uses this knowledge to provide the best solutions for our partners. We conduct rigorous data accuracy reviews to maintain unquestionable data quality. Our focus on critical thinking and problem-solving ensures that databases are maintained with the highest levels of accuracy and completeness. Additionally, our expertise with diverse interview techniques (CAPI, CATI, CAWI) and experience in providing services like KYC verification support ensure compliance with government regulations as needed.",
+      desc: "We specialise in designing databases and offer extensive technical support for data digitisation, ensuring the utmost data integrity. Our team has deep experience with a variety of databases, from traditional PC-based systems to online platforms, and uses this knowledge to provide the best solutions for our partners. We conduct rigorous data accuracy reviews to maintain unquestionable data quality. Our focus on critical thinking and problem-solving ensures that databases are maintained with the highest levels of accuracy and completeness. Additionally, our expertise with diverse interview techniques (CAPI, CATI, CAWI) and experience in providing services like KYC verification support ensure compliance with government regulations as needed.",
       card: [],
       card2: [],
     },
@@ -563,7 +563,7 @@ export const servicesData = [
         {
           heading: "Institutional Assessments",
           p1: "PICAT - Producer Institution Capacity Assessment Tool (PICAT)",
-          p2: "COPI - Community Ownership and Preparedness Index (COPI)",
+          p2: "COPI - Community Ownership and Preparedness Index (COPI)",
           iconUrl: "",
           title: "",
           desc: "",
@@ -856,7 +856,7 @@ export const testimonials = [
     imageUrl: "/home-page/image-1@2x.png",
     name: "Elisa Sanz",
     post: "C4ED Germany Team Leader - Qualitative Research & Evaluation Manager",
-    desc: "“Latheef and some of his colleagues are great in organizing the fieldwork and setting things, also very easy to talk to and ready to work extra time or adapt to anything necessary. Their authenticity and transparency makes any partner to connect again and again.” ",
+    desc: "“Latheef and some of his colleagues are great in organising the fieldwork and setting things, also very easy to talk to and ready to work extra time or adapt to anything necessary. Their authenticity and transparency makes any partner want to connect again and again.” ",
   },
   {
     id: 2,
@@ -870,7 +870,7 @@ export const testimonials = [
     imageUrl: "/home-page/image-2@2x.png",
     name: "Jaya Menon",
     post: "Catholic Relief Services India",
-    desc: "“Super liked the commitment, accountability, and high spirit of the core team members. They were easily accessible to their teams and demonstrated supportive supervision throughout the process. The field team echoed the principles of the organization all through the project/assignment.”",
+    desc: "“Super liked the commitment, accountability, and high spirit of the core team members. They were easily accessible to their teams and demonstrated supportive supervision throughout the process. The field team echoed the principles of the organisation all through the project/assignment.”",
   },
   {
     id: 4,

@@ -50,7 +50,7 @@ const Testimonials = () => {
               className="text-ce-brown text-2xl sm:text-3xl text-center font-semibold"
               data-aos="fade-up"
             >
-              Testimonial
+              Testimonials
             </h1>
             <div className="border-2 border-ce-red w-20 mb-2" />
           </div>

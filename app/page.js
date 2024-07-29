@@ -63,9 +63,9 @@ export default function Home() {
             className="text-base sm:text-lg md:text-xl text-ce-gray text-center"
             data-aos="fade-down"
           >
-            Choosing CE means selecting a partner committed to empowerment and
-            precision, ensuring your strategies are well-informed and capable of
-            driving lasting, impactful change.
+            Choosing Community Engagement means selecting a partner committed to
+            empowerment and precision, ensuring your strategies are
+            well-informed and capable of driving lasting, impactful change.
           </p>
         </div>
       </div>

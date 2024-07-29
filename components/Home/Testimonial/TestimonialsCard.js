@@ -2,11 +2,11 @@ import Image from "next/image"
 
 const TestimonialsCard = ({ testimonialDetails }) => {
   return (
-    <div className="flex flex-col items-center md:items-start text-center md:text-left px-2">
+    <div className="flex flex-col md:items-start text-center md:text-left px-2">
       <div className="mb-4">
         <Image src="/testimonial/q1.png" height={72} width={116} alt="quote" />
       </div>
-      <div className="flex flex-col gap-3 bg-white shadow p-10 rounded-tl-[120px] rounded-br-[120px] w-full md:w-[484px] h-[400px] md:h-[450px]">
+      <div className="flex flex-col gap-3 bg-white shadow px-10 py-16 rounded-tl-[80px] rounded-br-[80px] md:rounded-tl-[120px] md:rounded-br-[120px] w-full md:w-[484px] h-[300px] md:h-[450px]">
         <p className="text-[#5C5C5C] overflow-auto">
           {testimonialDetails.desc}
         </p>
@@ -28,7 +28,7 @@ const TestimonialsCard = ({ testimonialDetails }) => {
           height={72}
           width={116}
           alt="quote"
-          className="md:ms-96 mx-auto md:mx-0"
+          className="ms-auto"
         />
       </div>
     </div>

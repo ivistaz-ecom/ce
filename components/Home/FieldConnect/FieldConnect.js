@@ -8,7 +8,7 @@ const FieldConnect = () => {
         className="text-ce-brown text-2xl sm:text-3xl text-center"
         data-aos="fade-down"
       >
-        Field Connect
+        CommunityConnect
       </h2>
       <div className="border-2 border-ce-red w-20 mb-2" />
       <div className="w-full max-w-screen-lg" data-aos="flip-up">

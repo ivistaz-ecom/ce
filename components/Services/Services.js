@@ -72,9 +72,10 @@ const Services = () => {
                   <h3 className="text-xl sm:text-2xl text-ce-brown text-center font-semibold">
                     {item.title}
                   </h3>
-                  <p className="text-base sm:text-lg text-ce-gray text-center">
-                    {item.desc}
-                  </p>
+                  <p
+                    className="text-base sm:text-lg text-ce-gray text-center"
+                    dangerouslySetInnerHTML={{ __html: item.desc }}
+                  ></p>
                 </div>
               </li>
             ))}
@@ -93,7 +94,7 @@ const Services = () => {
                 className="flex flex-col items-center gap-5 w-full"
                 data-aos="zoom-in"
               >
-                <div className="bg-[#FFF3DE] w-[413px] h-[225px] flex flex-col justify-center items-center gap-3 rounded-3xl border-b-4 border-b-ce-brown px-5">
+                <div className="bg-[#FFF3DE] w-full sm:w-[413px] h-[225px] flex flex-col justify-center items-center gap-3 rounded-3xl border-b-4 border-b-ce-brown px-5">
                   <h2 className="text-ce-brown text-xl sm:text-2xl text-center font-semibold">
                     {item.heading}
                   </h2>

@@ -49,10 +49,10 @@ const Page = () => {
             data-aos="fade-down"
           >
             <p className="text-base lg:text-xl text-ce-gray w-full lg:w-2/5">
-              Community Engagement (CE) specialises in research and gathering
-              intelligence on markets, consumers, and societal trends, enabling
-              partners to make efficient and well-informed decisions. As a
-              highly reputed member of the{" "}
+              Community Engagement (CE) specialises in both social and market
+              research, gathering detailed intelligence on societal trends,
+              consumer behaviour, and market dynamics. As a highly reputed
+              member of the{" "}
               <Link
                 href="https://catalysts.global/"
                 target="_blank"
@@ -61,8 +61,8 @@ const Page = () => {
                 Catalyst Group
               </Link>
               , a social enterprise committed to promoting the health and
-              prosperity of vulnerable communities, CE is associated with
-              pioneers such as{" "}
+              prosperity of vulnerable communities, Community Engagement is
+              associated with pioneers such as{" "}
               <Link
                 href="https://cms.org.in"
                 target="_blank"
