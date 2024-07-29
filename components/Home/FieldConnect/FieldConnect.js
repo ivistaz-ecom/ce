@@ -14,7 +14,7 @@ const FieldConnect = () => {
       <div className="w-full max-w-screen-lg" data-aos="flip-up">
         <video className="w-full" controls>
           <source
-            src="https://ivista-digital-bucket.blr1.cdn.digitaloceanspaces.com/cg/fuzhio_ce.mp4"
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/Untitled-10.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
