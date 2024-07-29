@@ -877,7 +877,7 @@ export const testimonials = [
     imageUrl: "/home-page/image-2@2x.png",
     name: "Vidyun Rathore",
     post: "Monitoring Evaluation & Learning Senior Coordinator at Better Cotton (Global)",
-    desc: "“Care was taken to ensure a smooth process for data collection. The flexibility of the team in adapting the tool as required was commendable. Highly proficient - worked well in understand the needs of the study and the context where the programme was implemented.”",
+    desc: "“Care was taken to ensure a smooth process for data collection. The flexibility of the team in adapting the tool as required was commendable. Highly proficient - worked well in understanding the needs of the study and the context where the programme was implemented.”",
   },
   {
     id: 5,
@@ -900,11 +900,11 @@ export const testimonials = [
     post: "National Mission Manager  DAY-NRLM, Ministry of Rural Development, GoI",
     desc: "“Abdul Latheef is an exceptionally good trainer.  I have observed him providing training for an evaluation to the enumerators and supervisors and believed that in addition being a natural trainer, he puts in a lot of effort in preparation for the training sessions. The training sessions were made very lively but never letting the reins go off his hands in demanding rapt attention from the trainees. The inputs were provided with the required stress and focus but never made them too repetitive or boring.  Another important thing I observed is that he made a mental note of fast learners and slow learners and accordingly trained so that the entire class could reach an optimal level with equivalent results. His sessions were fun and absolutely interactive which I consider very important in training.”",
   },
-  {
-    id: 8,
-    imageUrl: "/home-page/image-2@2x.png",
-    name: "Dr. Zeenath Roohi",
-    post: "Energy 4 Health - Selco Foundation",
-    desc: "“It was a good experience looking forward to working with CMS.”",
-  },
+  // {
+  //   id: 8,
+  //   imageUrl: "/home-page/image-2@2x.png",
+  //   name: "Dr. Zeenath Roohi",
+  //   post: "Energy 4 Health - Selco Foundation",
+  //   desc: "“It was a good experience looking forward to working with CMS.”",
+  // },
 ]

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import React from "react"
+import VideoPlayer from "./VideoPlayer"
 
 const FieldConnect = () => {
   return (
@@ -20,6 +21,7 @@ const FieldConnect = () => {
           Your browser does not support the video tag.
         </video>
       </div>
+      {/* <VideoPlayer /> */}
     </div>
   )
 }

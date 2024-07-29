@@ -105,7 +105,7 @@ const Services = () => {
                     <div className="border-b border-dashed border-[#E36200] w-full" />
                   )}
                   <p className="text-[#E36200] text-sm sm:text-xl text-center">
-                    {item.p1}
+                    {item.p2}
                   </p>
                 </div>
               </li>

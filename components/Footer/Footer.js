@@ -17,7 +17,8 @@ const Footer = () => {
         <div className="border-2 border-ce-red w-20 mb-2" />
         <div className="flex flex-col sm:flex-row gap-2 text-center sm:text-left">
           <h3 className="text-base sm:text-lg md:text-xl">
-            <span className="text-ce-vivid-md-green">Call:</span> +91 9448176887
+            <span className="text-ce-vivid-md-green">Call:</span>
+            <a href="tel:+919448176887">+91 9448176887</a>
           </h3>
           <span className="hidden md:block text-base sm:text-lg md:text-xl font-light text-ce-vivid-md-green">
             |
