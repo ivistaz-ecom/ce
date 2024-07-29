@@ -63,11 +63,8 @@ const Page = () => {
         </div>
       </div>
 
-      <QA />
-      <QC />
-
-      <div className="max-w-screen-xl mx-auto">
-        <div className="flex flex-col items-center gap-3">
+      <div className="max-w-screen-xl mx-auto mb-5">
+        {/* <div className="flex flex-col items-center gap-3">
           <h1
             className="text-ce-brown text-2xl sm:text-3xl text-center"
             data-aos="fade-up"
@@ -75,7 +72,7 @@ const Page = () => {
             Our Methodologies
           </h1>
           <div className="border-2 border-ce-red w-20 mb-2" />
-        </div>
+        </div> */}
 
         <div className="flex justify-center mt-10">
           <Image
@@ -92,6 +89,9 @@ const Page = () => {
           />
         </div>
       </div>
+
+      <QA />
+      <QC />
     </>
   )
 }
