@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const TestimonialsCard = ({ testimonialDetails }) => {
   return (
-    <div className="flex flex-col md:items-start text-center md:text-left px-2">
+    <div className="flex flex-col text-center md:text-left px-2">
       <div className="mb-4">
         <Image src="/testimonial/q1.png" height={72} width={116} alt="quote" />
       </div>
@@ -22,13 +22,13 @@ const TestimonialsCard = ({ testimonialDetails }) => {
           </div>
         </div>
       </div>
-      <div className="mt-4 md:mt-0">
+      <div className="mt-4 md:mt-2">
         <Image
           src="/testimonial/q2.png"
           height={72}
           width={116}
           alt="quote"
-          className="ms-auto"
+          className="ms-auto md:ms-96"
         />
       </div>
     </div>

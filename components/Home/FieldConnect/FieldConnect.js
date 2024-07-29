@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import VideoPlayer from "./VideoPlayer"
+import VideoPlayer from "./video"
 
 const FieldConnect = () => {
   return (
@@ -12,16 +12,16 @@ const FieldConnect = () => {
         CommunityConnect
       </h2>
       <div className="border-2 border-ce-red w-20 mb-2" />
-      <div className="w-full max-w-screen-lg" data-aos="flip-up">
-        <video className="w-full" controls>
+      <div className="w-full max-w-screen-lg">
+        {/* <video className="w-full" controls>
           <source
             src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/Untitled-10.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <VideoPlayer />
       </div>
-      {/* <VideoPlayer /> */}
     </div>
   )
 }

@@ -481,7 +481,7 @@ export const servicesData = [
     tab: "Skills4Community (S4C)",
     data: {
       title: "Skills4Community (S4C)",
-      desc: "Elevate your community heroes with our Skills4Communities program. In collaboration with Vrutti, we provide comprehensive training and tools to turn local groups into powerful changemakers. Our programmes focuses on skill enhancement, entrepreneurship, and business management, empowering individuals and groups to excel within their communities.",
+      desc: "Elevate your community heroes with our Skills4Communities program. In collaboration with our partners, we provide comprehensive training and tools to turn local groups into powerful changemakers. Our programmes focuses on skill enhancement, entrepreneurship, and business management, empowering individuals and groups to excel within their communities.",
       card: [],
       card2: [],
     },

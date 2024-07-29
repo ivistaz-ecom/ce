@@ -27,10 +27,10 @@ const Clientle = () => {
           className="text-center text-ce-gray text-lg w-10/12"
           data-aos="fade-down"
         >
-          Our expertise spans across various sectors, serving a diverse array of
-          clients committed to making a difference. From governmental bodies to
-          non-profits and beyond, our data-driven insights light the way for
-          transformative actions.
+          Our expertise spans various sectors nationally and internationally,
+          serving a diverse array of clients committed to making a difference.
+          From governmental bodies to non-profits and beyond, our data-driven
+          insights light the way for transformative actions.
         </p>
       </div>
       {/* <div className="flex justify-center mt-10">

@@ -17,11 +17,30 @@ export default function ContactForm({ fields, form }) {
 
   const validateEmail = (email) => {
     const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-    return re.test(String(email).toLowerCase())
+    if (!re.test(String(email).toLowerCase())) {
+      return false
+    }
+    const domain = email.split("@")[1].toLowerCase()
+    const typos = {
+      "gamil.com": "gmail.com",
+      "gmil.com": "gmail.com",
+      "gmial.com": "gmail.com",
+      "yaho.com": "yahoo.com",
+      "yahooo.com": "yahoo.com",
+      "yhoo.com": "yahoo.com",
+      "hotnail.com": "hotmail.com",
+      "hotmails.com": "hotmail.com",
+      "outlok.com": "outlook.com",
+    }
+    if (typos[domain]) {
+      return `Did you mean ${typos[domain]}?`
+    }
+    return true
   }
 
   const handleFormSubmit = async (e) => {
     e.preventDefault()
+
     const newErrors = {}
 
     // Check for empty fields
@@ -32,14 +51,18 @@ export default function ContactForm({ fields, form }) {
     })
 
     // Email validation
-    if (formData.email && !validateEmail(formData.email)) {
-      newErrors.email = "Invalid email address"
+    const emailValidationResult = validateEmail(formData.email)
+    if (formData.email && emailValidationResult !== true) {
+      newErrors.email =
+        typeof emailValidationResult === "string"
+          ? emailValidationResult
+          : "Invalid email address"
     }
-    if (!formData.phone) {
-      newErrors.phone = "Phone number is required"
-    } else if (!/^\d+$/.test(formData.phone)) {
-      newErrors.phone = "Phone number must be numeric"
-    }
+    // if (!formData.phone) {
+    //   newErrors.phone = "Phone number is required"
+    // } else if (!/^\d+$/.test(formData.phone)) {
+    //   newErrors.phone = "Phone number must be numeric"
+    // }
 
     // If there are errors, set the errors state
     if (Object.keys(newErrors).length > 0) {
@@ -101,7 +124,7 @@ export default function ContactForm({ fields, form }) {
     <form className="w-full max-w-screen-lg" onSubmit={handleFormSubmit}>
       {successMessage && (
         <div
-          className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+          className="mb-4 text-lg text-green-800 rounded-lg  dark:bg-gray-800 dark:text-green-400"
           role="alert"
         >
           <span className="font-medium">Submitted!</span> {successMessage}
