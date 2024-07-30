@@ -16,7 +16,7 @@ const Page = () => {
     <>
       <div
         className="h-[400px] md:h-[700px] bg-[url('/webBanner/banner02.jpg')] bg-cover bg-center mb-16"
-        data-aos="zoom-in"
+        data-aos="fade-down"
       >
         <Header />
       </div>

@@ -16,7 +16,10 @@ const Page = () => {
 
   return (
     <>
-      <div className="h-[400px] md:h-[700px] bg-center bg-[url('/webBanner/banner05.jpg')] bg-cover mb-16">
+      <div
+        className="h-[400px] md:h-[700px] bg-center bg-[url('/webBanner/banner05.jpg')] bg-cover mb-16"
+        data-aos="fade-down"
+      >
         <Header />
       </div>
       <div className="flex justify-end relative">
