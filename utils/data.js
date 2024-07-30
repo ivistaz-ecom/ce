@@ -32,7 +32,7 @@ export const snapshotData = [
     iconUrl:
       "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/snapshot/icon5.png",
     count: "1000+",
-    title: "Polling Booth",
+    title: "Polling Booths",
   },
 ]
 
@@ -258,7 +258,7 @@ export const qcData = [
     id: 2,
     iconUrl:
       "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/methodology/icon02.svg",
-    title: "Data Profilling",
+    title: "Data Profiling",
     desc: "Pattern, Distribution, Outlets etc.",
   },
   {
