@@ -352,7 +352,7 @@ export const coreTeamData = [
     id: 8,
     imageUrl: "/fieldConnect/team/image08.png",
     name: "Sandip Pattanayak",
-    designation: "Chief Executive Officer of GREEN Foundation",
+    designation: "CEO of GREEN Foundation, M & E Expert",
     linkedIn: "https://in.linkedin.com/",
     twitter: "https://x.com/?lang=en",
   },
