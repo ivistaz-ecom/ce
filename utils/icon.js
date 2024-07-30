@@ -4,7 +4,6 @@ import { FaLinkedinIn } from "react-icons/fa"
 import { FaArrowLeft } from "react-icons/fa"
 import { FaArrowRight } from "react-icons/fa"
 import { RiSingleQuotesL } from "react-icons/ri"
-import { RiSingleQuotesR } from "react-icons/ri"
 
 export const twitter = <FaXTwitter />
 export const facebook = <FaFacebookF />
