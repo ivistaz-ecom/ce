@@ -11,7 +11,7 @@ const OurImpactAndReach = () => {
       </h2>
       <div className="border-2 border-ce-red w-20 mb-2" />
       <Image
-        src="/home/ourImpactAndReach/image01.png"
+        src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/ourImpactAndReach/image01.png"
         width={700}
         height={420}
         alt=""

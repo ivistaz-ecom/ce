@@ -14,7 +14,7 @@ const Page = () => {
   return (
     <>
       <div
-        className="h-[400px] md:h-[700px] bg-center bg-[url('/webBanner/banner08.jpg')] bg-cover mb-16"
+        className="h-[400px] md:h-[700px] bg-center bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/webBanner/banner08.jpg')] bg-cover mb-16"
         data-aos="fade-down"
       >
         <Header />

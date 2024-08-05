@@ -6,7 +6,7 @@ const PortfolioManager = () => {
     <>
       <div className="qa-con flex flex-col items-center gap-10 py-24 px-5">
         <Image
-          src="/fieldConnect/portfolio.png"
+          src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/portfolio.png"
           width={1000}
           height={500}
           alt=""
@@ -14,7 +14,7 @@ const PortfolioManager = () => {
           data-aos="fade-up"
         />
         <Image
-          src="/fieldConnect/portfolio01.png"
+          src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/portfolio01.png"
           width={374}
           height={1040}
           alt=""

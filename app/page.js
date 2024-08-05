@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="h-[400px] md:h-[700px] bg-[url('/webBanner/banner01.jpg')] bg-cover bg-center mb-16"
+        className="h-[400px] md:h-[700px] bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/webBanner/banner01.jpg')] bg-cover bg-center mb-16"
         data-aos="fade-down"
       >
         <Header />
@@ -49,15 +49,16 @@ export default function Home() {
             className="text-base sm:text-lg md:text-xl text-ce-gray text-center mt-5"
             data-aos="fade-down"
           >
-            Transforming market and consumer intelligence into actionable
-            insights empowers organisations and businesses to make informed
-            decisions, driving success and fostering strategic change. Our
-            expertise lies in engaging with diverse communities, utilising
-            advanced technology and methods to uncover valuable perspectives.
-            Our presence spans every corner of the nation and extends across the
-            globe. In collaboration with Catalyst Management Services, Swasti,
-            Vrutti, Upfront, Green Foundation, and Fuzhio, we ensure
-            high-quality, accurate data collection and analysis.
+            Empowering communities by translating their voices, strengths, and
+            aspirations into actionable insights enables organizations and
+            businesses to make informed decisions, drive success, and foster
+            strategic change. Our expertise lies in engaging with diverse
+            communities, utilising advanced technology and methods to uncover
+            valuable perspectives. Our presence spans every corner of the nation
+            and extends across the globe. In collaboration with Catalyst
+            Management Services, Swasti, Vrutti, Upfront, Green Foundation, and
+            Fuzhio, we ensure high-quality, accurate data collection and
+            analysis.
           </p>
           <p
             className="text-base sm:text-lg md:text-xl text-ce-gray text-center"

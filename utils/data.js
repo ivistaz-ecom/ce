@@ -294,7 +294,8 @@ export const qcData = [
 export const coreTeamData = [
   {
     id: 1,
-    imageUrl: "/fieldConnect/team/image01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image01.png",
     name: "Abdul Latheef P",
     designation: "Portfolio Manager",
     linkedIn: "https://in.linkedin.com/",
@@ -302,7 +303,8 @@ export const coreTeamData = [
   },
   {
     id: 2,
-    imageUrl: "/fieldConnect/team/image02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image02.png",
     name: "Eliza",
     designation: "Expert - Qualitative Research",
     linkedIn: "https://in.linkedin.com/",
@@ -310,7 +312,8 @@ export const coreTeamData = [
   },
   {
     id: 3,
-    imageUrl: "/fieldConnect/team/image03.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image03.png",
     name: "Gagan Padival",
     designation: "Lead - Tech Deployment and Zonal Manager South",
     linkedIn: "https://in.linkedin.com/",
@@ -318,7 +321,8 @@ export const coreTeamData = [
   },
   {
     id: 4,
-    imageUrl: "/fieldConnect/team/image04.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image04.png",
     name: "Dr. Khushwant Singh",
     designation: "Lead - Field Operations and Data for Decision and Insights",
     linkedIn: "https://in.linkedin.com/",
@@ -326,7 +330,8 @@ export const coreTeamData = [
   },
   {
     id: 5,
-    imageUrl: "/fieldConnect/team/image05.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image05.png",
     name: "Prashant Shukla",
     designation: "Lead Project Start-up Support and Zonal Manager North",
     linkedIn: "https://in.linkedin.com/",
@@ -334,7 +339,8 @@ export const coreTeamData = [
   },
   {
     id: 6,
-    imageUrl: "/fieldConnect/team/image06.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image06.png",
     name: "Ritika Gupta",
     designation: "Research & Evaluation",
     linkedIn: "https://in.linkedin.com/",
@@ -342,7 +348,8 @@ export const coreTeamData = [
   },
   {
     id: 7,
-    imageUrl: "/fieldConnect/team/image07.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image07.png",
     name: "Sambit Kumar Nanda",
     designation: "Lead - Skills4Community and Zonal Manager East",
     linkedIn: "https://in.linkedin.com/",
@@ -350,7 +357,8 @@ export const coreTeamData = [
   },
   {
     id: 8,
-    imageUrl: "/fieldConnect/team/image08.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image08.png",
     name: "Sandip Pattanayak",
     designation: "CEO of GREEN Foundation, M & E Expert",
     linkedIn: "https://in.linkedin.com/",
@@ -358,7 +366,8 @@ export const coreTeamData = [
   },
   {
     id: 9,
-    imageUrl: "/fieldConnect/team/image09.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image09.png",
     name: "Shreya Datta",
     designation: "Branding and MarComm Specialist",
     linkedIn: "https://in.linkedin.com/",
@@ -366,7 +375,8 @@ export const coreTeamData = [
   },
   {
     id: 10,
-    imageUrl: "/fieldConnect/team/image10.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image10.png",
     name: "Siddi Mankad",
     designation: "Documentation and Governance",
     linkedIn: "https://in.linkedin.com/",
@@ -374,7 +384,8 @@ export const coreTeamData = [
   },
   {
     id: 11,
-    imageUrl: "/fieldConnect/team/image11.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image11.png",
     name: "Sowbhagyavathi S",
     designation: "Lead - Data Management",
     linkedIn: "https://in.linkedin.com/",
@@ -382,7 +393,7 @@ export const coreTeamData = [
   },
   // {
   //   id: 12,
-  //   imageUrl: "/fieldConnect/team/image12.png",
+  //   imageUrl: "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image12.png",
   //   name: "Yamini",
   //   designation: "Gender Specialist",
   //   linkedIn: "https://in.linkedin.com/",
@@ -390,7 +401,8 @@ export const coreTeamData = [
   // },
   {
     id: 13,
-    imageUrl: "/fieldConnect/team/image13.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/fieldConnect/team/image13.png",
     name: "Yogish",
     designation: "Lead - CAPI Design and Zonal Manager West",
     linkedIn: "https://in.linkedin.com/",
@@ -659,175 +671,218 @@ export const successStoriesData = [
 export const homePartnersData = [
   {
     id: 1,
-    imageUrl: "/home/partners/image01.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image01.png",
   },
   {
     id: 2,
-    imageUrl: "/home/partners/image02.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image02.png",
   },
   {
     id: 3,
-    imageUrl: "/home/partners/image03.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image03.png",
   },
   {
     id: 4,
-    imageUrl: "/home/partners/image04.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image04.png",
   },
   {
     id: 5,
-    imageUrl: "/home/partners/image05.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image05.png",
   },
   {
     id: 6,
-    imageUrl: "/home/partners/image06.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image06.png",
   },
   {
     id: 7,
-    imageUrl: "/home/partners/image07.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image07.png",
   },
   {
     id: 8,
-    imageUrl: "/home/partners/image08.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image08.png",
   },
   {
     id: 9,
-    imageUrl: "/home/partners/image09.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image09.png",
   },
   {
     id: 10,
-    imageUrl: "/home/partners/image10.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image10.png",
   },
   {
     id: 11,
-    imageUrl: "/home/partners/image11.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image11.png",
   },
   {
     id: 12,
-    imageUrl: "/home/partners/image12.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image12.png",
   },
   {
     id: 13,
-    imageUrl: "/home/partners/image13.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image13.png",
   },
   {
     id: 14,
-    imageUrl: "/home/partners/image14.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image14.png",
   },
   {
     id: 15,
-    imageUrl: "/home/partners/image15.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image15.png",
   },
   {
     id: 16,
-    imageUrl: "/home/partners/image16.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image16.png",
   },
   {
     id: 17,
-    imageUrl: "/home/partners/image17.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image17.png",
   },
   {
     id: 18,
-    imageUrl: "/home/partners/image18.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image18.png",
   },
   {
     id: 19,
-    imageUrl: "/home/partners/image19.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image19.png",
   },
   {
     id: 20,
-    imageUrl: "/home/partners/image20.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image20.png",
   },
   {
     id: 21,
-    imageUrl: "/home/partners/image21.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image21.png",
   },
   {
     id: 22,
-    imageUrl: "/home/partners/image22.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image22.png",
   },
   {
     id: 23,
-    imageUrl: "/home/partners/image23.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image23.png",
   },
   {
     id: 24,
-    imageUrl: "/home/partners/image24.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image24.png",
   },
   {
     id: 25,
-    imageUrl: "/home/partners/image25.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image25.png",
   },
   {
     id: 26,
-    imageUrl: "/home/partners/image26.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image26.png",
   },
   {
     id: 27,
-    imageUrl: "/home/partners/image27.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image27.png",
   },
   {
     id: 28,
-    imageUrl: "/home/partners/image28.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image28.png",
   },
   {
     id: 29,
-    imageUrl: "/home/partners/image29.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image29.png",
   },
   {
     id: 30,
-    imageUrl: "/home/partners/image30.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image30.png",
   },
   {
     id: 31,
-    imageUrl: "/home/partners/image31.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image31.png",
   },
   {
     id: 32,
-    imageUrl: "/home/partners/image32.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image32.png",
   },
   {
     id: 33,
-    imageUrl: "/home/partners/image33.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image33.png",
   },
   {
     id: 34,
-    imageUrl: "/home/partners/image34.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image34.png",
   },
   {
     id: 35,
-    imageUrl: "/home/partners/image35.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image35.png",
   },
   {
     id: 36,
-    imageUrl: "/home/partners/image36.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image36.png",
   },
   {
     id: 37,
-    imageUrl: "/home/partners/image37.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image37.png",
   },
   {
     id: 38,
-    imageUrl: "/home/partners/image38.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image38.png",
   },
   {
     id: 39,
-    imageUrl: "/home/partners/image39.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image39.png",
   },
   {
     id: 40,
-    imageUrl: "/home/partners/image40.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image40.png",
   },
   {
     id: 41,
-    imageUrl: "/home/partners/image41.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image41.png",
   },
   {
     id: 42,
-    imageUrl: "/home/partners/image42.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image42.png",
   },
   {
     id: 43,
-    imageUrl: "/home/partners/image43.png",
+    imageUrl:
+      "https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/home/partners/image43.png",
   },
 ]
 

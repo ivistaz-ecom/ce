@@ -14,7 +14,7 @@ const Expertise = () => {
           </h2>
           <div className="border-2 border-ce-red w-20 mb-2" />
           <Image
-            src="/whyChooseUs/expertise01.png"
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/whyChooseUs/expertise01.png"
             width={1000}
             height={1000}
             alt=""
@@ -22,7 +22,7 @@ const Expertise = () => {
             data-aos="zoom-in"
           />
           <Image
-            src="/whyChooseUs/expertise02.png"
+            src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/whyChooseUs/expertise02.png"
             width={327}
             height={1330}
             alt=""
