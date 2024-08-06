@@ -127,33 +127,33 @@ export const sdgData = [
 export const ourServicesData = [
   {
     id: 1,
-    title: "Project Start-up Support <br /> (BoT)",
-    desc: "We specialise in on-ground support for effective programme implementation.",
+    title: "Project Start-up Support <br /> (PSS)",
+    desc: "We specialise in on-ground support for effective programme implementation (Build, Organise and Support - BOT)",
   },
   {
     id: 2,
     title: "Tech4Community <br /> (T4C)",
-    desc: "Embracing technology to significantly enhance outcomes for disadvantaged groups.",
+    desc: "Embracing technology to significantly enhance outcomes for disadvantaged groups",
   },
   {
     id: 3,
     title: "Skills4Communities <br /> (S4C)",
-    desc: "Elevate your community heroes with our Skills4Communities programme.",
+    desc: "Elevate your community heroes with our Skills4Communities programme",
   },
   {
     id: 4,
     title: "Data for Decisions and Insights (DDI)",
-    desc: "Empowering social Impact through data-driven solutions.",
+    desc: "Empowering social Impact through data-driven solutions",
   },
   {
     id: 5,
     title: "Data Management <br /> (DM)",
-    desc: "We specialise in designing databases and offer extensive technical support.",
+    desc: "We specialise in designing databases and offer extensive technical support",
   },
   {
     id: 6,
     title: "Assessments <br /> and Ratings",
-    desc: "We conduct assessments of community institutions.",
+    desc: "We conduct assessments of community institutions",
   },
 ]
 
@@ -470,9 +470,9 @@ export const MentorAndAdvisorsData = [
 export const servicesData = [
   {
     id: 1,
-    tab: "Project Start-up Support (BoT)",
+    tab: "Project Start-up Support (PSS)",
     data: {
-      title: "Project Start-up Support (BoT)",
+      title: "Project Start-up Support (PSS)",
       desc: "We specialise in on-ground support for effective programme implementation. Our expertise in managing logistics, laying the groundwork, and fostering community collaboration ensures smooth project initiation and operation. With years of experience, we efficiently set up community systems and expedite program start-ups. Our processes allow partners to focus on their core objectives, leveraging our strong local base developed through CommunityConnect.",
       card: [],
       card2: [],
