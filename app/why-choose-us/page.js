@@ -36,7 +36,7 @@ const Page = () => {
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-24 flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3">
             <h1
-              className="text-2xl sm:text-3xl md:text-4xl text-ce-brown text-center font-semibold z-50"
+              className="text-2xl sm:text-3xl md:text-4xl text-ce-brown text-center font-semibold"
               data-aos="fade-up"
             >
               Why Choose Us

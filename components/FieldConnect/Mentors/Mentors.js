@@ -9,12 +9,12 @@ const Mentors = () => {
     <div className="flex flex-col gap-10 mb-5">
       <div className="flex flex-col items-center gap-3">
         <h1
-          className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold z-50"
+          className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold"
           data-aos="fade-up"
         >
           Our Team
         </h1>
-        <div className="border-2 border-ce-red w-20 mb-2 z-50" />
+        <div className="border-2 border-ce-red w-20 mb-2" />
       </div>
       <div className="mt-7">
         <ul className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 md:gap-16 px-10">
