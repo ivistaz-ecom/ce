@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer/Footer"
 import "../styles/globals.css"
 import { AppProvider } from "@/context/AppContext"
+import Script from "next/script"
 
 export const metadata = {
   title: "Building Stronger Communities through Insight and Engagement",
@@ -24,6 +25,21 @@ export default function RootLayout({ children }) {
             <Footer />
           </main>
         </AppProvider>
+        {/* Google Tag Manager */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-HGLVN18PC5"
+        ></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HGLVN18PC5', {
+              cookie_flags: 'SameSite=None;Secure'
+            });
+          `}
+        </Script>
       </body>
     </html>
   )
