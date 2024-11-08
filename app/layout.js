@@ -40,6 +40,20 @@ export default function RootLayout({ children }) {
             });
           `}
         </Script>
+
+        {/* Additional Google Analytics Tag */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-T5PFLJC7VT"
+        ></Script>
+        <Script id="additional-google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-T5PFLJC7VT');
+          `}
+        </Script>
       </body>
     </html>
   )
