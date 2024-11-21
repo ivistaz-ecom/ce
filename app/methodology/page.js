@@ -92,12 +92,14 @@ const Page = () => {
             width={1269}
             height={745}
             className=" w-3/4 hidden md:block"
+            alt=""
           />
           <Image
             src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/methodology/qualitative01.png"
             width={1269}
             height={745}
             className="block md:hidden"
+            alt=""
           />
         </div>
       </div>

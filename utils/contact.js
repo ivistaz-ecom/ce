@@ -134,11 +134,10 @@ export default function ContactForm({ fields, form }) {
         {fields.map((field) => (
           <div
             key={field.id}
-            className={`${
-              field.type === "textarea"
-                ? `${form === "2" ? "col-span-2" : "col-span-1"}`
-                : "flex flex-col w-full"
-            }`}
+            className={`${field.type === "textarea"
+              ? `${form === "2" ? "col-span-2" : "col-span-1"}`
+              : "flex flex-col w-full"
+              }`}
           >
             <label htmlFor={field.id}>{field.label}</label>
             {field.type === "textarea" ? (
@@ -162,11 +161,10 @@ export default function ContactForm({ fields, form }) {
       <div className="text-center mt-8">
         <button
           type="submit"
-          className={`${
-            form === "2"
-              ? "px-4 py-2 bg-white rounded text-ce-brown text-lg sm:text-xl"
-              : "px-4 py-2 bg-ce-vivid-md-green rounded text-white text-lg sm:text-xl"
-          }`}
+          className={`${form === "2"
+            ? "px-4 py-2 bg-white rounded text-ce-brown text-lg sm:text-xl"
+            : "px-4 py-2 bg-ce-vivid-md-green rounded text-white text-lg sm:text-xl"
+            }`}
         >
           Submit
         </button>

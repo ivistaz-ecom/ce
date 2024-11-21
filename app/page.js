@@ -30,6 +30,8 @@ export default function Home() {
     metaImage: "",
   }
 
+  console.log(pathname)
+
   return (
     <>
 
