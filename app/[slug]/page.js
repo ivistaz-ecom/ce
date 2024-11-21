@@ -14,7 +14,7 @@ const Post = ({ params }) => {
         const fetchData = async () => {
             try {
                 const response = await fetch(
-                    `https://docs.fuzhio.org/wp-json/wp/v2/ce-seo-blog?embed&slug=${slug
+                    `${configData.apiDomainURL}/ce-seo-blog?embed&slug=${slug
 
                     }`
                 );
@@ -47,6 +47,42 @@ const Post = ({ params }) => {
         return <div>Not found</div>;
     }
 
+
+    // Generate Schema Markup
+    const generateSchemaMarkup = (post) => {
+        return {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": post.title.rendered,
+            "description": post.acf.meta_description || "No description provided",
+            // "author": {
+            //     "@type": "Person",
+            //     "name": post.acf.author_name || "Unknown Author"
+            // },
+            // "datePublished": post.date,
+            // "dateModified": post.modified,
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": `${configData.mainWebUrl}/${post.slug}`
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Your Organization Name",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": `${configData.mainWebUrl}/path-to-logo.png`
+                }
+            },
+            "image": {
+                "@type": "ImageObject",
+                "url": post.acf.featured_image_url || `${configData.mainWebUrl}/default-image.png`,
+                "height": 600,
+                "width": 1200
+            }
+        };
+    };
+
+
     // Render the post data here if available
     return (
         <>
@@ -65,11 +101,18 @@ const Post = ({ params }) => {
                 <div key={index}>
                     <head>
                         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                        <title>{post.acf.meta_title_}</title>
+                        <title>{post.acf.meta_title}</title>
                         <meta name="description" content={post.acf.meta_description} />
                         <meta http-equiv="content-language" content="en"></meta>
                         <meta name="robots" content="index, follow" />
-                        <link rel="canonical" href={`https://upfront.global/${post.slug}`} />
+                        <link rel="canonical" href={`${configData.mainWebUrl}/${post.slug}`} />
+
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify(generateSchemaMarkup(post)),
+                            }}
+                        />
                     </head>
                     <div
                         className="flex items-center justify-center text-white text-center lg:text-6xl text-3xl"
