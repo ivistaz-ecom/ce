@@ -2,10 +2,10 @@
 import ContactUsForm from "@/components/ContactUs/ContactUsForm/ContactUsForm"
 import Header from "@/components/Header/Header"
 import React from "react"
-import Seo from "../../components/SeoComponents/Seo"
 import { usePathname } from "next/navigation"
+import Seo from "../../components/SeoComponents/Seo"
 
-const page = () => {
+const Page = () => {
 
   const pathname = usePathname();
   const seo = {
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
