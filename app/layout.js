@@ -4,9 +4,9 @@ import { AppProvider } from "@/context/AppContext"
 import Script from "next/script"
 
 export const metadata = {
-  title: "Building Stronger Communities through Insight and Engagement",
+  title: "Empowering Communities through Community Engagement",
   description:
-    "Transforming insights into actions, we empower organisations to drive impactful change through community engagement and precise data analysis.",
+    "Empowering communities by translating their voices into actionable insights enabling organisations to make informed decisions, drive success, and foster change.",
 }
 
 export default function RootLayout({ children }) {

@@ -8,14 +8,25 @@ import Link from "next/link"
 import React, { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import { usePathname } from "next/navigation"
+import Seo from '../../components/SeoComponents/Seo'
 
 const Page = () => {
   useEffect(() => {
     AOS.init()
   })
 
+  const pathname = usePathname();
+  const seo = {
+    title: "Meet the Community Engagement team",
+    description: "Get to know our passionate team driving sustainable change through expertise in community engagement and innovative solutions",
+    path: `${pathname}`,
+    metaImage: "",
+  }
+
   return (
     <>
+      <Seo {...seo} />
       <div
         className="h-[400px] md:h-[700px] bg-center bg-[url('/webBanner/banner10.jpg')] bg-cover mb-16"
         data-aos="fade-down"

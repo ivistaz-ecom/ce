@@ -8,14 +8,26 @@ import Link from "next/link"
 import React, { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import { usePathname } from "next/navigation"
+import Seo from '../../components/SeoComponents/Seo'
 
 const Page = () => {
   useEffect(() => {
     AOS.init()
   })
 
+  const pathname = usePathname();
+  const seo = {
+    title: "Community Connect for research insights and data collection",
+    description: "Learn how we foster meaningful connections between communities and organisations, creating collaborative solutions for sustainable growth",
+    path: `${pathname}`,
+    metaImage: "",
+  }
+
   return (
     <>
+
+      <Seo {...seo} />
       <div
         className="h-[400px] md:h-[700px] bg-center bg-[url('/webBanner/banner05.jpg')] bg-cover mb-16"
         data-aos="fade-down"

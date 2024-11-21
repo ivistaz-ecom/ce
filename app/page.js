@@ -13,14 +13,27 @@ import React, { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import Testimonials from "@/components/Home/Testimonial/Testimonial"
+import Seo from "../components/SeoComponents/Seo"
+import { usePathname } from "next/navigation"
 
 export default function Home() {
   useEffect(() => {
     AOS.init()
   })
 
+  const pathname = usePathname();
+
+  const seo = {
+    title: "Building Stronger Communities through Insight and Engagement",
+    description: "Our work during the time of the pandemic and in the form of Covid Action Collab, spanned geographies and helped support vulnerable communities",
+    path: `${pathname}`,
+    metaImage: "",
+  }
+
   return (
     <>
+
+      <Seo {...seo} />
       <div
         className="h-[400px] md:h-[700px] bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/webBanner/banner01.jpg')] bg-cover bg-center mb-16"
         data-aos="fade-down"

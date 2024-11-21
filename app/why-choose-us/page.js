@@ -5,13 +5,24 @@ import Link from "next/link"
 import React, { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
-
+import { usePathname } from "next/navigation"
+import Seo from '../../components/SeoComponents/Seo'
 const Page = () => {
   useEffect(() => {
     AOS.init()
   })
+
+  const pathname = usePathname();
+  const seo = {
+    title: "Building Stronger Communities through Insight and Engagement",
+    description: "Learn why Fuzhio Community Engagement is the trusted choice for  delivering innovative, sustainable solutions tailored to your impact goals.",
+    path: `${pathname}`,
+    metaImage: "",
+  }
   return (
     <>
+
+      <Seo {...seo} />
       <div
         className="h-[400px] md:h-[700px] bg-center bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/ce/public/webBanner/banner03.jpg')] bg-cover mb-16"
         data-aos="fade-down"

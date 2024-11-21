@@ -24,3 +24,15 @@ body {
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
   background-color: transparent;
 } */
+
+
+
+/* Wordpress Backend CSS */
+
+.wp-a-link{
+  color: #B34738;
+}
+.wp-para{
+  margin-bottom: 10px;
+}
+
