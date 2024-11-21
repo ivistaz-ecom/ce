@@ -40,9 +40,8 @@ const Header = () => {
 
   return (
     <div
-      className={`${
-        isScrolled ? "bg-ce-vivid-green" : "bg-transparent"
-      } py-5 fixed top-0 right-0 left-0 z-50`}
+      className={`${isScrolled ? "bg-ce-vivid-green" : "bg-transparent"
+        } py-5 fixed top-0 right-0 left-0 z-50`}
     >
       <nav className="px-3" data-aos="fade-down">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
@@ -80,9 +79,8 @@ const Header = () => {
             </svg>
           </button>
           <div
-            className={`${
-              navbarOpen ? "block bg-black/40" : "hidden"
-            } w-full md:block md:w-auto`}
+            className={`${navbarOpen ? "block bg-black/40" : "hidden"
+              } w-full md:block md:w-auto`}
             id="navbar-dropdown"
           >
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:mt-0">
@@ -120,9 +118,8 @@ const Header = () => {
                 </button>
                 <div
                   id="dropdownNavbar"
-                  className={`z-10 ${
-                    dropdownAbout ? "block" : "hidden"
-                  } absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+                  className={`z-10 ${dropdownAbout ? "block" : "hidden"
+                    } absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
                 >
                   <ul
                     className="py-2 text-sm text-gray-700 dark:text-gray-400"
