@@ -3,11 +3,11 @@ import "../styles/globals.css"
 import { AppProvider } from "@/context/AppContext"
 import Script from "next/script"
 
-export const metadata = {
-  title: "Empowering Communities through Community Engagement",
-  description:
-    "Empowering communities by translating their voices into actionable insights enabling organisations to make informed decisions, drive success, and foster change.",
-}
+// export const metadata = {
+//   title: "Empowering Communities through Community Engagement",
+//   description:
+//     "Empowering communities by translating their voices into actionable insights enabling organisations to make informed decisions, drive success, and foster change.",
+// }
 
 export default function RootLayout({ children }) {
   return (

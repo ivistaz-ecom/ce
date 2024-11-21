@@ -24,8 +24,8 @@ export default function Home() {
   const pathname = usePathname();
 
   const seo = {
-    title: "Building Stronger Communities through Insight and Engagement",
-    description: "Our work during the time of the pandemic and in the form of Covid Action Collab, spanned geographies and helped support vulnerable communities",
+    title: "Empowering Communities through Community Engagement",
+    description: "Empowering communities by translating their voices into actionable insights enabling organisations to make informed decisions, drive success, and foster change.",
     path: `${pathname}`,
     metaImage: "",
   }
