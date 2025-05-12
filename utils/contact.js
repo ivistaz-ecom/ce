@@ -3,7 +3,7 @@ import InputField from "./InputField" // Importing reusable input field componen
 import TextAreaField from "./TextAreaField" // Importing reusable textarea field component
 import axios from "axios"
 
-export default function ContactForm({ fields, form }) {
+export default function ContactForm({ fields, form, formId }) {
   const [formData, setFormData] = useState(
     fields.reduce((acc, field) => {
       acc[field.id] = ""
@@ -79,8 +79,17 @@ export default function ContactForm({ fields, form }) {
         formDataToSend.append(key, formData[key])
       })
 
+      // const response = await axios.post(
+      //   "https://docs.fuzhio.org/wp-json/contact-form-7/v1/contact-forms/8/feedback",
+      //   formDataToSend,
+      //   {
+      //     headers: {
+      //       "Content-Type": "multipart/form-data",
+      //     },
+      //   }
+      // )
       const response = await axios.post(
-        "https://docs.fuzhio.org/wp-json/contact-form-7/v1/contact-forms/10/feedback",
+        `https://docs.fuzhio.org/wp-json/contact-form-7/v1/contact-forms/${formId}/feedback`,
         formDataToSend,
         {
           headers: {
@@ -88,6 +97,7 @@ export default function ContactForm({ fields, form }) {
           },
         }
       )
+      
 
       console.log("Form data sent:", formDataToSend)
       setSuccessMessage("Thank you for contacting us")

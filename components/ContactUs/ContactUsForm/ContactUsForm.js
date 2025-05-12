@@ -5,7 +5,8 @@ import ContactForm from "../../../utils/contact"
 
 const ContactUsForm = () => {
   const fields = {
-    formid: "2",
+    form: "2",
+    formId: "8",
     fields: [
       { id: "firstname", label: "First Name", type: "text" },
       { id: "lastname", label: "Last Name", type: "text" },
@@ -27,7 +28,11 @@ const ContactUsForm = () => {
         </h4>
       </div>
       <div className="w-full md:w-3/4 shadow p-10 bg-[#FFF3DE]">
-        <ContactForm fields={fields.fields} form={fields.formid} />
+        <ContactForm
+          fields={fields.fields}
+          form={fields.form}
+          formId={fields.formId}
+        />
       </div>
     </div>
   )

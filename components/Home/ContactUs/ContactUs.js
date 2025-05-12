@@ -5,7 +5,8 @@ import ContactForm from "../../../utils/contact"
 
 const ContactUs = () => {
   const fields = {
-    formid: "2",
+    form: "2",
+    formId: "9",
     fields: [
       { id: "firstname", label: "First Name", type: "text" },
       { id: "lastname", label: "Last Name", type: "text" },
@@ -34,7 +35,11 @@ const ContactUs = () => {
         >
           Connect with us for your data requirements
         </p>
-        <ContactForm fields={fields.fields} form={fields.formid} />
+        <ContactForm
+          fields={fields.fields}
+          form={fields.form}
+          formId={fields.formId}
+        />
       </div>
     </div>
   )
